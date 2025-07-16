@@ -1,0 +1,10 @@
+🕹 ENTORNO PORTABLE DE JUEGOS
+
+▶ Para usar el entorno, hacer doble clic en:
+   ENTORNO_PORTABLE/LANZAR_ENTORNO.sh
+   y seleccionar "Ejecutar como programa".
+
+▶ Desde la terminal que se abre, podés ejecutar tus juegos.
+
+📦 Este entorno no requiere Wine ni DXVK instalados en el sistema.
+Todo funciona desde la carpeta ZONA_DE_JUEGO.

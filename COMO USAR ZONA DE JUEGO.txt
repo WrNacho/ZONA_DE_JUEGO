@@ -1,0 +1,73 @@
+
+===========================================
+          ZONA_DE_JUEGO (entorno portátil)
+===========================================
+
+🕹️ ¿Qué es esto?
+
+ZONA_DE_JUEGO es un entorno completamente portátil para ejecutar videojuegos de Windows (como Skyrim LE/SE, Fallout, Oblivion, etc.) en Linux, sin necesidad de instalar Wine, DXVK, Winetricks ni ningún programa en el sistema.
+
+Todo está contenido dentro de esta carpeta, lo que permite:
+✔️ Ejecutar juegos con alto rendimiento
+✔️ Mantener el sistema limpio
+✔️ Copiar todo a una USB y usarlo en otra PC o instalación nueva
+
+-------------------------------------------
+📦 ¿Qué incluye?
+
+- Wine portátil (sin instalar nada en el sistema)
+- DXVK preconfigurado (mejora el rendimiento gráfico)
+- Winetricks integrado
+- Scripts automatizados para instalar, lanzar y activar el entorno
+- Soporte para Mod Organizer 2 y juegos clásicos de Bethesda
+
+-------------------------------------------
+🧭 ¿Cómo se usa?
+
+1. **Copiá la carpeta ZONA_DE_JUEGO a tu computadora o USB**
+   - Puede estar en cualquier ubicación
+
+2. **Entrá a la carpeta `ENTORNO_PORTABLE`**
+
+3. **Ejecución básica (3 scripts principales):**
+
+   🔧 `INSTALAR_ENTORNO.sh`  
+   Ejecuta este script UNA SOLA VEZ para dejar el entorno listo.  
+   ✔️ Crea permisos de ejecución  
+   ✔️ Instala el lanzador en el menú de aplicaciones
+
+   🚀 `LANZAR_ENTORNO.sh`  
+   Abre una terminal lista para ejecutar tus juegos con Wine + DXVK.  
+   ✔️ Carga todas las variables automáticamente  
+   ✔️ No es necesario abrir ninguna terminal manual
+
+   🧪 `ACTIVAR_ENTORNO.sh`  
+   Si solo querés cargar las variables de entorno en una terminal actual.  
+   ✔️ Usá esto si ya tenés una terminal abierta
+
+-------------------------------------------
+💾 ¿Cómo copiarlo y seguir usándolo?
+
+1. Podés copiar `ZONA_DE_JUEGO` a una **USB** o disco externo
+2. Luego pegala en cualquier otra PC con Linux
+3. Asegurate de restaurar permisos si usás FAT32 o NTFS:
+
+   chmod +x *.sh
+
+4. Ejecutá `LANZAR_ENTORNO.sh` para comenzar
+
+-------------------------------------------
+📌 Notas finales
+
+- Funciona sin instalar nada en el sistema
+- Compatible con Ubuntu 20.04 en adelante (y derivados)
+- Se puede usar incluso en sistemas recién instalados
+
+-------------------------------------------
+👤 Autor:
+
+Creado por: **Nacho Arias**  
+Seudónimo: **WrNacho**  
+Fecha: Julio 2025
+
+===========================================
